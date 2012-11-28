@@ -1,0 +1,610 @@
+/* Style 10 */
+
+/* @group Structure */
+
+body {
+	background: #303030;
+	color: #ccc;
+}
+
+.contentheading {
+	color: #ccc;
+}
+
+a {
+	color: #fefefe;
+}
+
+body.header1 #header {
+	background: url(../images/style10/texture-bg1.jpg) 0 -2px repeat-x;
+}
+
+body.header2 #header {
+	background: url(../images/style10/texture-bg2.jpg) 0 -2px repeat-x;
+}
+
+body.header3 #header {
+	background: url(../images/style10/texture-bg3.jpg) 0 -2px repeat-x;
+}
+
+body.header4 #header {
+	background: url(../images/style10/texture-bg4.jpg) 0 -2px repeat-x;
+}
+
+body.header5 #header {
+	background: url(../images/style10/texture-bg5.jpg) 0 -2px repeat-x;
+}
+
+body.header6 #header {
+	background: url(../images/style10/texture-bg6.png) 0 -2px repeat-x;
+}
+
+img#logo {
+	background: url(../images/style10/logo.png) 0 0 no-repeat;
+}
+
+#banner {
+	color: #ccc;
+}
+
+#showcase {
+	background: #141414;
+	color: #ccc;
+}
+
+#showcase2 {
+	background: url(../images/style10/showcase-top-bg.png) 0 0 repeat-x;
+}
+
+#body-bg {
+	background: #242424 url(../images/style10/body-bg.png) 0 0 repeat-x;
+}
+
+#leftcol,
+#maincol,
+#rightcol {
+	color: #999;
+}
+
+#leftcol,
+#rightcol {
+	background: url(../images/style10/column-shadow-l.png) 0 0 no-repeat;
+}
+
+#leftcol2,
+#rightcol2 {
+	background: url(../images/style10/column-shadow-r.png) 100% 0 no-repeat;
+}
+
+td.rightcol,
+td.leftcol {
+	background: #303030;
+	border-top: 1px solid #444;
+	border-left: 1px solid #444;
+	border-right: 1px solid #444;
+}
+
+#bottom-topbar {
+	background: url(../images/style10/bottom-topbar.png) 0 0 repeat-x;
+}
+
+body.header1 #bottom {
+	background: #303030 url(../images/style10/texture-bg1.jpg) 0 0 repeat-x;
+}
+
+body.header2 #bottom {
+	background: #303030 url(../images/style10/texture-bg2.jpg) 0 0 repeat-x;
+}
+
+body.header3 #bottom {
+	background: #303030 url(../images/style10/texture-bg3.jpg) 0 0 repeat-x;
+}
+
+body.header4 #bottom {
+	background: #303030 url(../images/style10/texture-bg4.jpg) 0 0 repeat-x;
+}
+
+body.header5 #bottom {
+	background: #303030 url(../images/style10/texture-bg5.jpg) 0 0 repeat-x;
+}
+
+body.header6 #bottom {
+	background: #303030 url(../images/style10/texture-bg6.png) 0 0 repeat-x;
+}
+
+#bottom a {
+	color: #fff;
+}
+
+img#rocket {
+	background: url(../images/style10/rocket.png) 0 0 no-repeat;
+}
+
+#leftcol tr.sectiontableentry2 td,
+#rightcol tr.sectiontableentry2 td,
+#leftcol td.sectiontableentry2,
+#rightcol td.sectiontableentry2 {
+ 	background: url(../images/style10/mainmenu-bg.png) 50% 0 no-repeat;
+}
+
+#leftcol tr.sectiontableentry1 td,
+#rightcol tr.sectiontableentry1 td,
+#leftcol td.sectiontableentry1,
+#rightcol td.sectiontableentry1 {
+	background: url(../images/style10/mainmenu-bg.png) 50% -27px no-repeat;
+}
+
+#maincol tr.sectiontableentry2 td,
+#maincol td.sectiontableentry2 {
+ 	background: #1C1C1C;
+}
+
+/* @end */
+
+/* @group Modules */
+
+#showcasemodules .module-featured {
+	background: url(../images/style10/modules/featured/module-bg.png) 0 100% repeat-x;
+}
+
+#showcasemodules .module-featured h3 {
+	background: url(../images/style10/modules/featured/module-h3.png) 50% 0 no-repeat;
+	color: #555;
+}
+
+#showcasemodules .module-featured h3 span {
+	color: #FEFEFE;
+}
+
+#showcasemodules .module h3 {
+	color: #999;
+}
+
+#showcasemodules a {
+	color: #FEFEFE;
+}
+
+#showcasemodules {
+	color: #999;
+}
+
+#leftcol .moduletable-hilite1 h3,
+#rightcol .moduletable-hilite1 h3 {
+	background: url(../images/style10/modules/hilite1/module-h3.png) 50% 0 no-repeat;
+	color: #555;
+}
+
+#leftcol .moduletable-hilite1 h3 span,
+#rightcol .moduletable-hilite1 h3 span {
+	color: #FEFEFE;
+}
+
+#leftcol .moduletable-hilite1,
+#rightcol .moduletable-hilite1 {
+	background: #191919 url(../images/style10/modules/hilite1/module-bg.png) 50% 100% no-repeat;
+	color: #999;
+}
+
+#leftcol .moduletable-hilite1 a.readon,
+#rightcol .moduletable-hilite1 a.readon,
+#leftcol .moduletable-hilite1 a,
+#rightcol .moduletable-hilite1 a,
+.module-hilite5 .readon,
+.module-hilite5 a {
+	color: #fefefe;
+}
+
+#leftcol .moduletable-hilite2 a.readon,
+#rightcol .moduletable-hilite2 a.readon,
+#leftcol .moduletable-hilite2 a,
+#rightcol .moduletable-hilite2 a,
+.module-hilite6 .readon,
+.module-hilite6 a {
+	color: #fefefe;
+}
+
+#leftcol .moduletable-hilite2 h3,
+#rightcol .moduletable-hilite2 h3 {
+	background: url(../images/style10/modules/hilite2/module-h3.png) 50% 0 no-repeat;
+	color: #fefefe;
+}
+
+#leftcol .moduletable-hilite2 h3 span,
+#rightcol .moduletable-hilite2 h3 span {
+	color: #555;
+}
+
+#leftcol .moduletable-hilite2,
+#rightcol .moduletable-hilite2 {
+	background: #2A2A2A url(../images/style10/modules/hilite2/module-bg.png) 50% 100% no-repeat;
+	color: #999;
+}
+
+#leftcol .moduletable h3,
+#rightcol .moduletable h3 {
+	background: url(../images/style10/modules/module-side/module-h3.png) 50% 0 no-repeat;
+	color: #fefefe;
+}
+
+#leftcol .moduletable h3 span,
+#rightcol .moduletable h3 span {
+	color: #555;
+}
+
+#leftcol .moduletable,
+#rightcol .moduletable {
+	background: #2A2A2A url(../images/style10/modules/module-side/module-bg.png) 50% 100% no-repeat;
+	color: #999;
+}
+
+#maincol .module h3 {
+	background: url(../images/style10/modules/module-main/module-h3.png) 50% 0 no-repeat;
+	color: #fefefe;
+}
+
+#maincol .module h3 span {
+	color: #555;
+}
+
+#maincol .module {
+	color: #999;
+}
+
+#maincol .module-hilite3 h3 {
+	background: url(../images/style10/modules/hilite3/module-h3.png) 50% 0 no-repeat;
+	color: #fefefe;
+}
+
+#maincol .module-hilite3 h3 span {
+	color: #555;
+}
+
+#maincol .module-hilite3 {
+	color: #999;
+}
+
+#maincol .module-hilite4 h3 {
+	background: url(../images/style10/modules/hilite4/module-h3.png) 50% 0 no-repeat;
+	color: #fefefe;
+}
+
+#maincol .module-hilite4 h3 span {
+	color: #555;
+}
+
+#maincol .module-hilite4 {
+	color: #999;
+}
+
+#maincol .module-hilite5 h3 {
+	background: url(../images/style10/modules/hilite5/module-h3.png) 50% 0 no-repeat;
+	color: #fefefe;
+}
+
+#maincol .module-hilite5 h3 span {
+	color: #555;
+}
+
+#maincol .module-hilite5 {
+	background: #191919  url(../images/style10/modules/hilite5/module-bg.png) 50% 100% no-repeat;
+	color: #999;
+}
+
+#maincol .module-hilite6 h3 {
+	background: url(../images/style10/modules/hilite6/module-h3.png) 50% 0 no-repeat;
+	color: #fefefe;
+}
+
+#maincol .module-hilite6 h3 span {
+	color: #555;
+}
+
+#maincol .module-hilite6 {
+	background: #2A2A2A url(../images/style10/modules/hilite6/module-bg.png) 50% 100% no-repeat;
+	color: #999;
+}
+
+#bottommodules,
+#bottom-menu a {
+	color: #999;
+}
+
+#bottommodules .module h3 {
+	color: #fefefe;
+}
+
+#bottom-menu a:hover {
+	color: #fefefe;
+}
+
+#bottom-menu a.mainlevel {
+	 border-right: 1px solid #333;
+}
+
+/* @end */
+
+/* @group Menus */
+
+ul.menu li.active li a:hover {
+	color: #fefefe;
+}
+
+#horiz-menu a {
+	color: #ccc;
+	background-image: url(../images/style10/menu-l.png);
+}
+
+#horiz-menu li {
+	background-image: url(../images/style10/menu-r.png);
+}
+
+#horiz-menu li.active a,
+#horiz-menu li.sfHover.active a {
+	color: #ccc;
+}
+
+#horiz-menu.splitmenu li.active a,
+#horiz-menu.splitmenu li.active-sfHover a {
+	color: #fefefe;
+	background: url(../images/style10/menu-l.png) 0 0 no-repeat;
+}
+
+#horiz-menu.splitmenu li.active {
+	background: url(../images/style10/menu-r.png) 100% 0 no-repeat;
+}
+
+#horiz-menu li li a:hover,
+#horiz-menu li.active li a:hover {
+	color: #fefefe;
+}
+
+#horiz-menu li li a,
+#horiz-menu li.active li a {
+	color: #ccc;
+}
+
+#horiz-menu li li.parent a.daddy,
+#horiz-menu li.active li.parent a.daddy {
+	background: url(../images/style10/dropdown-child.png) 95% 50% no-repeat;
+}
+
+#horiz-menu li li.parent:hover a.daddy,
+#horiz-menu li.active li.parent:hover a.daddy,
+#horiz-menu li li.parent-sfHover a.daddy,
+#horiz-menu li.active li.parent-sfHover a.daddy {
+	background: url(../images/style10/dropdown-child.png) 95% 50% no-repeat;
+}
+
+#horiz-menu li li, 
+#horiz-menu li:hover li,
+#horiz-menu li.sfHover li,
+#horiz-menu li.parent:hover li,
+#horiz-menu li.parent.sfHover li,
+#horiz-menu li.active.parent:hover li,
+#horiz-menu li.active.parent.sfHover li {
+	border-bottom: 1px solid #151515;
+	background: none;
+}
+
+#horiz-menu ul ul {
+	background: #242424;
+}
+
+ul.menu li a,
+a.mainlevel {
+	background: url(../images/style10/mainmenu-bg.png) 0 0 no-repeat;
+	color: #ccc;
+}
+
+ul.menu li.active a,
+ul.menu li a:hover,
+ul.menu li.active a:hover,
+a#active_menu,
+a.mainlevel:hover {
+	color: #fefefe;
+	background: url(../images/style10/mainmenu-bg.png) 0 -27px no-repeat;
+}
+
+a#active_menu.sublevel {
+	color: #ccc;
+}
+
+a.sublevel {
+	color: #ccc;
+}
+
+a.sublevel:hover {
+	color: #fefefe;
+}
+
+/* @end */
+
+/* @group Tabber */
+
+#moduleslider-size {
+	background: url(../images/style10/modules/tabber/module-bg.png) 50% 100% no-repeat;
+}
+
+#rokslide-toolbar li.current,
+#rokslide-toolbar li.last.current {
+	background: url(../images/style10/active-tab-r.png) 100% 0 no-repeat;
+}
+
+#rokslide-toolbar li.current span {
+	background: url(../images/style10/active-tab-l.png) 0 0 no-repeat;
+}
+
+#rokslide-toolbar li {
+	background: url(../images/style10/tab-r.png) 100% 0 no-repeat;
+}
+
+#rokslide-toolbar li span {
+	background: url(../images/style10/tab-l.png) 0 0 no-repeat;
+}
+
+#rokslide-toolbar {
+	color: #ccc;
+	background: url(../images/style10/tab-bg.png) 0 0 repeat-x;
+}
+
+#rokslide-toolbar li.active { 
+	color: #fefefe;
+}
+
+#rokslide-toolbar li.current { 
+	color: #fefefe;
+}
+
+/* @end */
+
+/* @group Typography */
+
+li.number-1 {
+	background: url(../images/style10/typo/number-1.png) 0 0 no-repeat;	
+}
+
+li.number-2 {
+	background: url(../images/style10/typo/number-2.png) 0 0 no-repeat;	
+}
+
+li.number-3 {
+	background: url(../images/style10/typo/number-3.png) 0 0 no-repeat;	
+}
+
+li.number-4 {
+	background: url(../images/style10/typo/number-4.png) 0 0 no-repeat;	
+}
+
+li.number-5 {
+	background: url(../images/style10/typo/number-5.png) 0 0 no-repeat;	
+}
+
+li.number-6 {
+	background: url(../images/style10/typo/number-6.png) 0 0 no-repeat;	
+}
+
+li.number-7 {
+	background: url(../images/style10/typo/number-7.png) 0 0 no-repeat;	
+}
+
+li.number-8 {
+	background: url(../images/style10/typo/number-8.png) 0 0 no-repeat;	
+}
+
+li.number-9 {
+	background: url(../images/style10/typo/number-9.png) 0 0 no-repeat;	
+}
+
+ul.bullet-1 li {
+	background: url(../images/style10/typo/bullet-1.png) 2px 0 no-repeat;
+}
+
+ul.bullet-2 li {
+	background: url(../images/style10/typo/bullet-2.png) 2px 0 no-repeat;
+}
+
+ul.bullet-3 li {
+	background: url(../images/style10/typo/bullet-3.png) 2px 0 no-repeat;
+}
+
+ul.bullet-4 li {
+	background: url(../images/style10/typo/bullet-4.png) 2px 0 no-repeat;
+}
+
+blockquote {
+	background: url(../images/style10/typo/quote-start.png) 0 0 no-repeat;
+}
+
+blockquote p {
+	background: url(../images/style10/typo/quote-end.png) 100% 100% no-repeat;
+}
+
+pre {
+	background: #1C1C1C;
+	border: 1px solid #171717;
+}
+
+.tool-tip {
+	background: #1C1C1C;
+	border: 1px solid #171717;
+	padding: 4px;
+}
+
+span.alert {
+	color: #DD2529;
+	border-top: 3px solid #7C1616;
+	border-bottom: 3px solid #7C1616;
+	background: #451F1F url(../images/style10/typo/status-alert.png) 10px 50% no-repeat;
+}
+
+span.info {
+	color: #317ACA;
+	border-top: 3px solid #183C6A;
+	border-bottom: 3px solid #183C6A;
+	background: #202D3E url(../images/style10/typo/status-info.png) 10px 50% no-repeat;
+}
+
+span.note {
+	color: #CDA61F;
+	border-top: 3px solid #7C6716;
+	border-bottom: 3px solid #7C6716;
+	background: #453D1F url(../images/style10/typo/status-note.png) 10px 50% no-repeat;
+}
+
+span.download {
+	color: #70A52E;
+	border-top: 3px solid #4E6521;
+	border-bottom: 3px solid #4E6521;
+	background: #343C23 url(../images/style10/typo/status-download.png) 10px 50% no-repeat;
+}
+
+/* @end */
+
+/* @group signal login styling */
+
+#sl_vert #sl_username input#mod_login_username, 
+#sl_vert #sl_pass input#mod_login_password, 
+#sl_vert #sl_submitbutton input.button {
+	background-color: #232323;
+	color: #ccc;
+	border: 1px solid #000;
+}
+
+#sl_vert #sl_submitbutton input.button {
+	background: #0c0c0c;
+	color: #fff;
+}
+
+/* @end */
+
+/* @group RokContentRotator */
+
+.rok-content-rotator {
+	background: url(../images/style10/slide-div.png) 215px 0 repeat-y;
+}
+
+.rok-content-rotator .arrow {
+	background: url(../images/style10/slide-arrow.png) 0 0 no-repeat;
+}
+
+/* @end */
+
+a.large .button {
+	background: url(../images/style10/font-lg.png) 0 0 no-repeat;
+}
+
+a.small .button {
+	background: url(../images/style10/font-sm.png) 0 0 no-repeat;
+}
+
+a.default .button {
+	background: url(../images/style10/font-d.png) 0 0 no-repeat;
+}
+
+span.pathway img {
+	background: url(../images/style10/typo/bullet-3.png) 0 50% no-repeat;
+}
+
+img.demo-border {
+	border: 3px solid #161616;
+}

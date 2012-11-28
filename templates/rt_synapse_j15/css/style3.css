@@ -1,0 +1,614 @@
+/* Style 3 */
+
+/* @group Structure */
+
+body {
+	background: #7E8AA2;
+	color: #263248;
+}
+
+a,
+.contentheading {
+	color: #7E8AA2;
+}
+
+body.header1 #header {
+	background: url(../images/style3/texture-bg1.jpg) 0 -2px repeat-x;
+}
+
+body.header2 #header {
+	background: url(../images/style3/texture-bg2.jpg) 0 -2px repeat-x;
+}
+
+body.header3 #header {
+	background: url(../images/style3/texture-bg3.jpg) 0 -2px repeat-x;
+}
+
+body.header4 #header {
+	background: url(../images/style3/texture-bg4.jpg) 0 -2px repeat-x;
+}
+
+body.header5 #header {
+	background: url(../images/style3/texture-bg5.jpg) 0 -2px repeat-x;
+}
+
+body.header6 #header {
+	background: url(../images/style3/texture-bg6.png) 0 -2px repeat-x;
+}
+
+img#logo {
+	background: url(../images/style3/logo.png) 0 0 no-repeat;
+}
+
+#banner {
+	color: #fff;
+}
+
+#showcase,
+.rok-content-rotator .content {
+	background: #2A2A2A;
+	color: #999;
+}
+
+#showcase2 {
+	background: url(../images/style3/showcase-top-bg.png) 0 0 repeat-x;
+}
+
+#body-bg {
+	background: #E4E6E8 url(../images/style3/body-bg.png) 0 0 repeat-x;
+}
+
+#leftcol,
+#maincol,
+#rightcol {
+	color: #263248;
+}
+
+#leftcol,
+#rightcol {
+	background: url(../images/style3/column-shadow-l.png) 0 0 no-repeat;
+}
+
+#leftcol2,
+#rightcol2 {
+	background: url(../images/style3/column-shadow-r.png) 100% 0 no-repeat;
+}
+
+td.rightcol,
+td.leftcol {
+	background: #D8DEE5;
+	border-top: 1px solid #F5F7F8;
+	border-left: 1px solid #F5F7F8;
+	border-right: 1px solid #F5F7F8;
+}
+
+#bottom-topbar {
+	background: url(../images/style3/bottom-topbar.png) 0 0 repeat-x;
+}
+
+body.header1 #bottom {
+	background: #7C889F url(../images/style3/texture-bg1.jpg) 0 0 repeat-x;
+}
+
+body.header2 #bottom {
+	background: #7C889F url(../images/style3/texture-bg2.jpg) 0 0 repeat-x;
+}
+
+body.header3 #bottom {
+	background: #7C889F url(../images/style3/texture-bg3.jpg) 0 0 repeat-x;
+}
+
+body.header4 #bottom {
+	background: #7C889F url(../images/style3/texture-bg4.jpg) 0 0 repeat-x;
+}
+
+body.header5 #bottom {
+	background: #7C889F url(../images/style3/texture-bg5.jpg) 0 0 repeat-x;
+}
+
+body.header6 #bottom {
+	background: #7C889F url(../images/style3/texture-bg6.png) 0 0 repeat-x;
+}
+
+#bottom a {
+	color: #CAD3DB;
+}
+
+img#rocket {
+	background: url(../images/style3/rocket.png) 0 0 no-repeat;
+}
+
+#leftcol tr.sectiontableentry2 td,
+#rightcol tr.sectiontableentry2 td,
+#leftcol td.sectiontableentry2,
+#rightcol td.sectiontableentry2 {
+ 	background: url(../images/style3/mainmenu-bg.png) 50% 0 no-repeat;
+}
+
+#leftcol tr.sectiontableentry1 td,
+#rightcol tr.sectiontableentry1 td,
+#leftcol td.sectiontableentry1,
+#rightcol td.sectiontableentry1 {
+	background: url(../images/style3/mainmenu-bg.png) 50% -27px no-repeat;
+}
+
+#maincol tr.sectiontableentry2 td,
+#maincol td.sectiontableentry2 {
+ 	background: #DADCDE;
+}
+
+/* @end */
+
+/* @group Modules */
+
+#showcasemodules .module-featured {
+	background: url(../images/style3/modules/featured/module-bg.png) 0 100% repeat-x;
+}
+
+#showcasemodules .module-featured h3 {
+	background: url(../images/style3/modules/featured/module-h3.png) 50% 0 no-repeat;
+	color: #999;
+}
+
+#showcasemodules .module-featured h3 span {
+	color: #fff;
+}
+
+#showcasemodules .module h3 {
+	color: #FF9800;
+}
+
+#showcasemodules a {
+	color: #FF9800;
+}
+
+#leftcol .moduletable-hilite1 h3,
+#rightcol .moduletable-hilite1 h3 {
+	background: url(../images/style3/modules/hilite1/module-h3.png) 50% 0 no-repeat;
+	color: #263248;
+}
+
+#leftcol .moduletable-hilite1 h3 span,
+#rightcol .moduletable-hilite1 h3 span {
+	color: #fff;
+}
+
+#leftcol .moduletable-hilite1,
+#rightcol .moduletable-hilite1 {
+	background: #DF8500 url(../images/style3/modules/hilite1/module-bg.png) 50% 100% no-repeat;
+	color: #fff;
+}
+
+#leftcol .moduletable-hilite1 a.readon,
+#rightcol .moduletable-hilite1 a.readon,
+#leftcol .moduletable-hilite1 a,
+#rightcol .moduletable-hilite1 a,
+.module-hilite5 .readon,
+.module-hilite5 a {
+	color: #FFEBCC;
+}
+
+#leftcol .moduletable-hilite2 a.readon,
+#rightcol .moduletable-hilite2 a.readon,
+#leftcol .moduletable-hilite2 a,
+#rightcol .moduletable-hilite2 a,
+.module-hilite6 .readon,
+.module-hilite6 a {
+	color: #CAD3DB;
+}
+
+#leftcol .moduletable-hilite2 h3,
+#rightcol .moduletable-hilite2 h3 {
+	background: url(../images/style3/modules/hilite2/module-h3.png) 50% 0 no-repeat;
+	color: #FF9800;
+}
+
+#leftcol .moduletable-hilite2 h3 span,
+#rightcol .moduletable-hilite2 h3 span {
+	color: #fff;
+}
+
+#leftcol .moduletable-hilite2,
+#rightcol .moduletable-hilite2 {
+	background: #697589 url(../images/style3/modules/hilite2/module-bg.png) 50% 100% no-repeat;
+	color: #fff;
+}
+
+#leftcol .moduletable h3,
+#rightcol .moduletable h3 {
+	background: url(../images/style3/modules/module-side/module-h3.png) 50% 0 no-repeat;
+	color: #7E8AA2;
+}
+
+#leftcol .moduletable h3 span,
+#rightcol .moduletable h3 span {
+	color: #263248;
+}
+
+#leftcol .moduletable,
+#rightcol .moduletable {
+	background: #C9D5DF url(../images/style3/modules/module-side/module-bg.png) 50% 100% no-repeat;
+	color: #263248;
+}
+
+#maincol .module h3 {
+	background: url(../images/style3/modules/module-main/module-h3.png) 50% 0 no-repeat;
+	color: #7E8AA2;
+}
+
+#maincol .module h3 span {
+	color: #263248;
+}
+
+#maincol .module {
+	color: #263248;
+}
+
+#maincol .module-hilite3 h3 {
+	background: url(../images/style3/modules/hilite3/module-h3.png) 50% 0 no-repeat;
+	color: #263248;
+}
+
+#maincol .module-hilite3 h3 span {
+	color: #fff;
+}
+
+#maincol .module-hilite3 {
+	color: #263248;
+}
+
+#maincol .module-hilite4 h3 {
+	background: url(../images/style3/modules/hilite4/module-h3.png) 50% 0 no-repeat;
+	color: #FF9800;
+}
+
+#maincol .module-hilite4 h3 span {
+	color: #fff;
+}
+
+#maincol .module-hilite4 {
+	color: #263248;
+}
+
+#maincol .module-hilite5 h3 {
+	background: url(../images/style3/modules/hilite5/module-h3.png) 50% 0 no-repeat;
+	color: #263248;
+}
+
+#maincol .module-hilite5 h3 span {
+	color: #fff;
+}
+
+#maincol .module-hilite5 {
+	background: #DF8500  url(../images/style3/modules/hilite5/module-bg.png) 50% 100% no-repeat;
+	color: #fff;
+}
+
+#maincol .module-hilite6 h3 {
+	background: url(../images/style3/modules/hilite6/module-h3.png) 50% 0 no-repeat;
+	color:  #FF9800;;
+}
+
+#maincol .module-hilite6 h3 span {
+	color: #fff;
+}
+
+#maincol .module-hilite6 {
+	background: #697589 url(../images/style3/modules/hilite6/module-bg.png) 50% 100% no-repeat;
+	color: #fff;
+}
+
+#bottommodules,
+#bottom-menu a {
+	color: #fff;
+}
+
+#bottommodules .module h3 {
+	color: #fff;
+}
+
+#bottom-menu a:hover {
+	color: #E4E6E8;
+}
+
+#bottom-menu a.mainlevel {
+	 border-right: 1px solid #6B768A;
+}
+
+/* @end */
+
+/* @group Menus */
+
+ul.menu li.active li a:hover {
+	color: #fff;
+}
+
+#horiz-menu li.active a.daddy:hover,
+#horiz-menu li.active a.daddy.sfHover {
+	color: #fff;
+}
+
+#horiz-menu a {
+	color: #fff;
+	background-image: url(../images/style3/menu-l.png);
+}
+
+#horiz-menu li {
+	background-image: url(../images/style3/menu-r.png);
+}
+
+#horiz-menu li.active a,
+#horiz-menu li.sfHover.active a {
+	color: #fff;
+}
+
+#horiz-menu.splitmenu li.active a,
+#horiz-menu.splitmenu li.active-sfHover a {
+	color: #fff;
+	background: url(../images/style3/menu-l.png) 0 0 no-repeat;
+}
+
+#horiz-menu.splitmenu li.active {
+	background: url(../images/style3/menu-r.png) 100% 0 no-repeat;
+}
+
+#horiz-menu a:hover {
+	color: #fff;
+}
+
+#horiz-menu li li a:hover,
+#horiz-menu li.active li a:hover {
+	color: #fff;
+}
+
+#horiz-menu li li a,
+#horiz-menu li.active li a {
+	color: #EFE6C9;
+}
+
+#horiz-menu li li.parent a.daddy,
+#horiz-menu li.active li.parent a.daddy {
+	background: url(../images/style3/dropdown-child.png) 95% 50% no-repeat;
+}
+
+#horiz-menu li li.parent:hover a.daddy,
+#horiz-menu li.active li.parent:hover a.daddy,
+#horiz-menu li li.parent-sfHover a.daddy,
+#horiz-menu li.active li.parent-sfHover a.daddy {
+	background: url(../images/style3/dropdown-child.png) 95% 50% no-repeat;
+}
+
+#horiz-menu li li, 
+#horiz-menu li:hover li,
+#horiz-menu li.sfHover li,
+#horiz-menu li.parent:hover li,
+#horiz-menu li.parent.sfHover li,
+#horiz-menu li.active.parent:hover li,
+#horiz-menu li.active.parent.sfHover li {
+	border-bottom: 1px solid #CA7600;
+	background: none;
+}
+
+#horiz-menu ul ul {
+	background: #E18300;
+}
+
+ul.menu li a,
+a.mainlevel {
+	background: url(../images/style3/mainmenu-bg.png) 0 0 no-repeat;
+	color: #263248;
+}
+
+ul.menu li.active a,
+ul.menu li a:hover,
+ul.menu li.active a:hover,
+a#active_menu,
+a.mainlevel:hover {
+	color: #FF9800;
+	background: url(../images/style3/mainmenu-bg.png) 0 -27px no-repeat;
+}
+
+a#active_menu.sublevel {
+	color: #263248;
+}
+
+a.sublevel {
+	color: #263248;
+}
+
+a.sublevel:hover {
+	color: #FF9800;
+}
+
+/* @end */
+
+/* @group Tabber */
+
+#moduleslider-size {
+	background: url(../images/style3/modules/tabber/module-bg.png) 50% 100% no-repeat;
+}
+
+#rokslide-toolbar li.current,
+#rokslide-toolbar li.last.current {
+	background: url(../images/style3/active-tab-r.png) 100% 0 no-repeat;
+}
+
+#rokslide-toolbar li.current span {
+	background: url(../images/style3/active-tab-l.png) 0 0 no-repeat;
+}
+
+#rokslide-toolbar li {
+	background: url(../images/style3/tab-r.png) 100% 0 no-repeat;
+}
+
+#rokslide-toolbar li span {
+	background: url(../images/style3/tab-l.png) 0 0 no-repeat;
+}
+
+#rokslide-toolbar {
+	color: #7E8AA2;
+	background: url(../images/style3/tab-bg.png) 0 0 repeat-x;
+}
+
+#rokslide-toolbar li.active { 
+	color: #263248;
+}
+
+#rokslide-toolbar li.current { 
+	color: #263248;
+}
+
+/* @end */
+
+/* @group Typography */
+
+li.number-1 {
+	background: url(../images/style3/typo/number-1.png) 0 0 no-repeat;	
+}
+
+li.number-2 {
+	background: url(../images/style3/typo/number-2.png) 0 0 no-repeat;	
+}
+
+li.number-3 {
+	background: url(../images/style3/typo/number-3.png) 0 0 no-repeat;	
+}
+
+li.number-4 {
+	background: url(../images/style3/typo/number-4.png) 0 0 no-repeat;	
+}
+
+li.number-5 {
+	background: url(../images/style3/typo/number-5.png) 0 0 no-repeat;	
+}
+
+li.number-6 {
+	background: url(../images/style3/typo/number-6.png) 0 0 no-repeat;	
+}
+
+li.number-7 {
+	background: url(../images/style3/typo/number-7.png) 0 0 no-repeat;	
+}
+
+li.number-8 {
+	background: url(../images/style3/typo/number-8.png) 0 0 no-repeat;	
+}
+
+li.number-9 {
+	background: url(../images/style3/typo/number-9.png) 0 0 no-repeat;	
+}
+
+ul.bullet-1 li {
+	background: url(../images/style3/typo/bullet-1.png) 2px 0 no-repeat;
+}
+
+ul.bullet-2 li {
+	background: url(../images/style3/typo/bullet-2.png) 2px 0 no-repeat;
+}
+
+ul.bullet-3 li {
+	background: url(../images/style3/typo/bullet-3.png) 2px 0 no-repeat;
+}
+
+ul.bullet-4 li {
+	background: url(../images/style3/typo/bullet-4.png) 2px 0 no-repeat;
+}
+
+blockquote {
+	color: #40331E;
+	background: url(../images/style3/typo/quote-start.png) 0 0 no-repeat;
+}
+
+blockquote p {
+	background: url(../images/style3/typo/quote-end.png) 100% 100% no-repeat;
+}
+
+pre {
+	background: #DADCDE;
+	border: 1px solid #CFD1D3;
+}
+
+.tool-tip {
+	background: #DADCDE;
+	border: 1px solid #CFD1D3;
+	padding: 4px;
+}
+
+span.alert {
+	color: #CC0000;
+	border-top: 3px solid #EF8A8B;
+	border-bottom: 3px solid #EF8A8B;
+	background: #E8C4C5 url(../images/style3/typo/status-alert.png) 10px 50% no-repeat;
+}
+
+span.info {
+	color: #0055BB;
+	border-top: 3px solid #8AB0E0;
+	border-bottom: 3px solid #8AB0E0;
+	background: #C3D2E5 url(../images/style3/typo/status-info.png) 10px 50% no-repeat;
+}
+
+span.note {
+	color: #B79000;
+	border-top: 3px solid #EFDC8B;
+	border-bottom: 3px solid #EFDC8B;
+	background: #E8E2C5 url(../images/style3/typo/status-note.png) 10px 50% no-repeat;
+}
+
+span.download {
+	color: #57861A;
+	border-top: 3px solid #C1DA96;
+	border-bottom: 3px solid #C1DA96;
+	background: #D7E1CA url(../images/style3/typo/status-download.png) 10px 50% no-repeat;
+}
+
+/* @end */
+
+/* @group signal login styling */
+
+#sl_vert #sl_username input#mod_login_username, 
+#sl_vert #sl_pass input#mod_login_password, 
+#sl_vert #sl_submitbutton input.button {
+	background-color: #3A3A3A;
+	color: #ccc;
+	border: 1px solid #161616;
+}
+
+#sl_vert #sl_submitbutton input.button {
+	background: #1A1A1A;
+	color: #ccc;
+}
+
+/* @end */
+
+/* @group RokContentRotator */
+
+.rok-content-rotator {
+	background: url(../images/style3/slide-div.png) 215px 0 repeat-y;
+}
+
+.rok-content-rotator .arrow {
+	background: url(../images/style3/slide-arrow.png) 0 0 no-repeat;
+}
+
+/* @end */
+
+a.large .button {
+	background: url(../images/style3/font-lg.png) 0 0 no-repeat;
+}
+
+a.small .button {
+	background: url(../images/style3/font-sm.png) 0 0 no-repeat;
+}
+
+a.default .button {
+	background: url(../images/style3/font-d.png) 0 0 no-repeat;
+}
+
+span.pathway img {
+	background: url(../images/style3/typo/bullet-3.png) 0 50% no-repeat;
+}
+
+img.demo-border {
+	border: 3px solid #7E8AA2;
+}

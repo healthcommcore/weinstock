@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>RokIntroScroller</name>
+	<author>RocketTheme</author>
+	<creationDate>May 2008</creationDate>
+	<copyright>(C) 2007 RocketTheme. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@rockettheme.com</authorEmail>
+	<authorUrl>www.rockettheme.com</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+	<h2>RokIntroScroller Module</h2>
+	<p>A module created for RocketTheme <b>rt_hyperion</b> template</p>
+	]]></description>
+	<files>
+		<filename module="mod_rokintroscroller">mod_rokintroscroller.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>rokintroscroller.js</filename>
+		<folder>tmpl/</folder>
+	</files>
+	<params>
+		<param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+		<param name="show_title" type="radio" default="0" label="Show Article Title" description="Select whether to show the Article title">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="link_title" type="radio" default="0" label="Link Article Title" description="Make the title hyperlinked?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_front" type="radio" default="1" label="Frontpage Items" description="Show/Hide items designated for the Frontpage - only works when in Content Items only mode">
+			<option value="1">Show</option>
+			<option value="0">Hide</option>
+			<option value="2">Only Frontpage Items</option>
+		</param>
+		<param name="count" type="text" default="5" label="Count" description="The number of items to display (default 5)" />
+		<param name="catid" type="mos_category" default="" label="Category" description="Selects items from a specific Category." />
+		<param name="secid" type="mos_section" default="" label="Section" description="Selects items from a specific Secion." />
+		<param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="show_readmore" type="radio" default="1" label="Show Read More" description="Should the Read More link be shown?">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="readmore" type="text" default="Read More" label="Read More Label" description="Text to display for readmore if titles are NOT linked" />
+        <param name="duration" type="text" default="800" label="Transition Duration" description="Duration in ms of cross-blend transition" />
+		<param name="items_per_click" type="text" default="2" label="Items per Click" description="How many content items to skip per Arrow Click" />
+		<param name="preview_count" type="text" default="300" label="Preview Length" description="Length of characters to show in MooTools preview" />	    
+	</params>
+	<params group="advanced">
+		<param name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+			<option value="1">Use global</option>
+			<option value="0">No caching</option>
+		</param>
+		<param name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+	</params>
+</install>

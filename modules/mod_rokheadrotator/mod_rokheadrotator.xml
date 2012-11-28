@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+	<name>RokHeadRotator</name>
+	<author>RocketTheme</author>
+	<creationDate>Feb 2008</creationDate>
+	<copyright>(C) 2008 RocketTheme, LLC - All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>support@rockettheme.com</authorEmail>
+	<authorUrl>www.rockettheme.com</authorUrl>
+	<version>1.0</version>
+	<description>
+		<![CDATA[
+		<h1>RokHeadRotator Module</h1>
+		
+		<h3>Version 1.0</h3>
+
+		<p>RokHeadRotator is a Joomla! module that simple rotates between images and cross blends between them. Many settings are configurable</p>
+
+		]]>
+	</description>
+	<files>
+		<filename module="mod_rokheadrotator">mod_rokheadrotator.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl/</folder>
+	</files>
+	<params>
+	  <param name="moduleclass_sfx" type="text" default="" label="Module Class Suffix" description="A suffix to be applied to the css class of the module (table.moduletable), this allows individual module styling" />
+	  <param name="@spacer" type="spacer" default="" label="" description="" />
+	  <param name="imagePath" type="text" default="images/stories/fruit/" label="Images Directory" description="Location of images to be used in the rotation" size="40" />
+	  <param name="appendTemplateStyle" type="radio" default="0" label="Append Template Style" description="Append the template style to the image path.  Eg images/stories/fruit/light/">
+    			<option value="0">No</option>
+    			<option value="1">Yes</option>
+    		</param>
+	  <param name="altTag" type="text" default="RokHeadRotator - http://www.rockettheme.com" label="ALT Tag" description="Text to use in the ALT tag for the images" size="40" />
+	  <param name="imageStart" type="text" default="0" label="Images Start" description="Which image index to start on - default: 0;" size="5" />
+	  <param name="autoPlay" type="radio" default="1" label="Auto Play" description="Start the rotation on load">
+  			<option value="0">No</option>
+  			<option value="1">Yes</option>
+  		</param>
+  		<param name="showControls" type="radio" default="1" label="Show Controls" description="Show the prev/next/pause controls">
+      			<option value="0">No</option>
+      			<option value="1">Yes</option>
+      		</param>
+		<param name="sortCriteria" type="list" default="0" label="Sort Criteria" description="The sort criteria of the images files">
+			<option value="0">Alphabetical</option>
+			<option value="1">Creation Date</option>
+		</param>
+		<param name="sortOrder" type="list" default="0" label="Sort Order" description="The sort order of the images files">
+			<option value="0">Ascending</option>
+			<option value="1">Descending</option>
+			<option value="2">Random</option>
+		</param>
+		<param name="sortOrderManual" type="text" default="" label="Manual Sort Order" description="Comma seperated list of images that describe the order - Example: image3.jpg,image2.jpg,image1.jpg - this will override Sort Criteria if set" />
+		<param name="imageDuration" type="text" default="9000" label="Image Duration" description="Duration to stay on each image in ms" />
+		<param name="transDuration" type="text" default="1000" label="Transition Duration" description="Time it takes to transition between images in ms" />
+	  <param name="@spacer" type="spacer" default="" label="" description="" />
+	  
+	</params>
+</install>

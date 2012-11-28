@@ -1,0 +1,627 @@
+/* Style 5 */
+
+/* @group Structure */
+
+body {
+	background: #445878;
+	color: #1C1D21;
+}
+
+a,
+.contentheading {
+	color: #445878;
+}
+
+body.header1 #header {
+	background: url(../images/style5/texture-bg1.jpg) 0 -2px repeat-x;
+}
+
+body.header2 #header {
+	background: url(../images/style5/texture-bg2.jpg) 0 -2px repeat-x;
+}
+
+body.header3 #header {
+	background: url(../images/style5/texture-bg3.jpg) 0 -2px repeat-x;
+}
+
+body.header4 #header {
+	background: url(../images/style5/texture-bg4.jpg) 0 -2px repeat-x;
+}
+
+body.header5 #header {
+	background: url(../images/style5/texture-bg5.jpg) 0 -2px repeat-x;
+}
+
+body.header6 #header {
+	background: url(../images/style5/texture-bg6.png) 0 -2px repeat-x;
+}
+
+img#logo {
+	background: url(../images/style5/logo.png) 0 0 no-repeat;
+}
+
+#banner {
+	color: #ccc;
+}
+
+#showcase,
+.rok-content-rotator .content {
+	background: #EEEFF7;
+	color: #445878;
+}
+
+#showcase2 {
+	background: url(../images/style5/showcase-top-bg.png) 0 0 repeat-x;
+}
+
+#body-bg {
+	background: #F4F5F7 url(../images/style5/body-bg.png) 0 0 repeat-x;
+}
+
+#leftcol,
+#maincol,
+#rightcol {
+	color: #1C1D21;
+}
+
+#leftcol,
+#rightcol {
+	background: url(../images/style5/column-shadow-l.png) 0 0 no-repeat;
+}
+
+#leftcol2,
+#rightcol2 {
+	background: url(../images/style5/column-shadow-r.png) 100% 0 no-repeat;
+}
+
+td.rightcol,
+td.leftcol {
+	background: #E4E5EA;
+	border-top: 1px solid #F8F8FA;
+	border-left: 1px solid #F8F8FA;
+	border-right: 1px solid #F8F8FA;
+}
+
+#bottom-topbar {
+	background: url(../images/style5/bottom-topbar.png) 0 0 repeat-x;
+}
+
+body.header1 #bottom {
+	background: #445878 url(../images/style5/texture-bg1.jpg) 0 0 repeat-x;
+}
+
+body.header2 #bottom {
+	background: #445878 url(../images/style5/texture-bg2.jpg) 0 0 repeat-x;
+}
+
+body.header3 #bottom {
+	background: #445878 url(../images/style5/texture-bg3.jpg) 0 0 repeat-x;
+}
+
+body.header4 #bottom {
+	background: #445878 url(../images/style5/texture-bg4.jpg) 0 0 repeat-x;
+}
+
+body.header5 #bottom {
+	background: #445878 url(../images/style5/texture-bg5.jpg) 0 0 repeat-x;
+}
+
+body.header6 #bottom {
+	background: #445878 url(../images/style5/texture-bg6.png) 0 0 repeat-x;
+}
+
+#bottom a {
+	color: #fff;
+}
+
+img#rocket {
+	background: url(../images/style5/rocket.png) 0 0 no-repeat;
+}
+
+#leftcol tr.sectiontableentry2 td,
+#rightcol tr.sectiontableentry2 td,
+#leftcol td.sectiontableentry2,
+#rightcol td.sectiontableentry2 {
+ 	background: url(../images/style5/mainmenu-bg.png) 50% 0 no-repeat;
+}
+
+#leftcol tr.sectiontableentry1 td,
+#rightcol tr.sectiontableentry1 td,
+#leftcol td.sectiontableentry1,
+#rightcol td.sectiontableentry1 {
+	background: url(../images/style5/mainmenu-bg.png) 50% -27px no-repeat;
+}
+
+#maincol tr.sectiontableentry2 td,
+#maincol td.sectiontableentry2 {
+ 	background: #EBECEE;
+}
+
+/* @end */
+
+/* @group Modules */
+
+#showcasemodules .module-featured {
+	background: url(../images/style5/modules/featured/module-bg.png) 0 100% repeat-x;
+}
+
+#showcasemodules .module-featured h3 {
+	background: url(../images/style5/modules/featured/module-h3.png) 50% 0 no-repeat;
+	color: #445878;
+}
+
+#showcasemodules .module-featured h3 span {
+	color: #1C1D21;
+}
+
+#showcasemodules .module h3 {
+	color: #31353D;
+}
+
+#showcasemodules a {
+	color: #31353D;
+}
+
+#leftcol .moduletable-hilite1 h3,
+#rightcol .moduletable-hilite1 h3 {
+	background: url(../images/style5/modules/hilite1/module-h3.png) 50% 0 no-repeat;
+	color: #445878;
+}
+
+#leftcol .moduletable-hilite1 h3 span,
+#rightcol .moduletable-hilite1 h3 span {
+	color: #1C1D21;
+}
+
+#leftcol .moduletable-hilite1,
+#rightcol .moduletable-hilite1 {
+	background: #ECEDF2 url(../images/style5/modules/hilite1/module-bg.png) 50% 100% no-repeat;
+	color: #1C1D21;
+}
+
+#leftcol .moduletable-hilite1 a.readon,
+#rightcol .moduletable-hilite1 a.readon,
+#leftcol .moduletable-hilite1 a,
+#rightcol .moduletable-hilite1 a,
+.module-hilite5 .readon,
+.module-hilite5 a {
+	color: #445878;
+}
+
+#leftcol .moduletable-hilite2 a.readon,
+#rightcol .moduletable-hilite2 a.readon,
+#leftcol .moduletable-hilite2 a,
+#rightcol .moduletable-hilite2 a,
+.module-hilite6 .readon,
+.module-hilite6 a {
+	color: #92CDCF;
+}
+
+#leftcol .moduletable-hilite2 h3,
+#rightcol .moduletable-hilite2 h3 {
+	background: url(../images/style5/modules/hilite2/module-h3.png) 50% 0 no-repeat;
+	color: #92CDCF;
+}
+
+#leftcol .moduletable-hilite2 h3 span,
+#rightcol .moduletable-hilite2 h3 span {
+	color: #fff;
+}
+
+#leftcol .moduletable-hilite2,
+#rightcol .moduletable-hilite2 {
+	background: #32353D url(../images/style5/modules/hilite2/module-bg.png) 50% 100% no-repeat;
+	color: #fff;
+}
+
+#leftcol .moduletable h3,
+#rightcol .moduletable h3 {
+	background: url(../images/style5/modules/module-side/module-h3.png) 50% 0 no-repeat;
+	color: #445878;
+}
+
+#leftcol .moduletable h3 span,
+#rightcol .moduletable h3 span {
+	color: #1C1D21;
+}
+
+#leftcol .moduletable,
+#rightcol .moduletable {
+	background: #DBDDE3 url(../images/style5/modules/module-side/module-bg.png) 50% 100% no-repeat;
+	color: #1C1D21;
+}
+
+#maincol .module h3 {
+	background: url(../images/style5/modules/module-main/module-h3.png) 50% 0 no-repeat;
+	color: #445878;
+}
+
+#maincol .module h3 span {
+	color: #1C1D21;
+}
+
+#maincol .module {
+	color: #1C1D21;
+}
+
+#maincol .module-hilite3 h3 {
+	background: url(../images/style5/modules/hilite3/module-h3.png) 50% 0 no-repeat;
+	color: #445878;
+}
+
+#maincol .module-hilite3 h3 span {
+	color: #1C1D21;
+}
+
+#maincol .module-hilite3 {
+	color: #1C1D21;
+}
+
+#maincol .module-hilite4 h3 {
+	background: url(../images/style5/modules/hilite4/module-h3.png) 50% 0 no-repeat;
+	color: #92CDCF;
+}
+
+#maincol .module-hilite4 h3 span {
+	color: #fff;
+}
+
+#maincol .module-hilite4 {
+	color: #1C1D21;
+}
+
+#maincol .module-hilite5 h3 {
+	background: url(../images/style5/modules/hilite5/module-h3.png) 50% 0 no-repeat;
+	color: #445878;
+}
+
+#maincol .module-hilite5 h3 span {
+	color: #1C1D21;
+}
+
+#maincol .module-hilite5 {
+	background: #ECEDF2  url(../images/style5/modules/hilite5/module-bg.png) 50% 100% no-repeat;
+	color: #1C1D21;
+}
+
+#maincol .module-hilite6 h3 {
+	background: url(../images/style5/modules/hilite6/module-h3.png) 50% 0 no-repeat;
+	color: #92CDCF;
+}
+
+#maincol .module-hilite6 h3 span {
+	color: #fff;
+}
+
+#maincol .module-hilite6 {
+	background: #32353D url(../images/style5/modules/hilite6/module-bg.png) 50% 100% no-repeat;
+	color: #fff;
+}
+
+#bottommodules,
+#bottom-menu a {
+	color: #C3CEDE;
+}
+
+#bottommodules .module h3 {
+	color: #fff;
+}
+
+#bottom-menu a:hover {
+	color: #fff;
+}
+
+#bottom-menu a.mainlevel {
+	 border-right: 1px solid #556C8C;
+}
+
+/* @end */
+
+/* @group Menus */
+
+ul.menu li.active li a:hover {
+	color: #fff;
+}
+
+#horiz-menu a {
+	color: #fff;
+	background-image: url(../images/style5/menu-l.png);
+}
+
+#horiz-menu li {
+	background-image: url(../images/style5/menu-r.png);
+}
+
+#horiz-menu li.active.parent.sfHover a {
+	color: #fff;
+}
+
+#horiz-menu li.active a {
+	color: #1C1D21;
+}
+
+#horiz-menu li.active a:hover {
+	color: #1C1D21;
+}
+
+#horiz-menu li.active.parent a:hover {
+	color: #fff;
+}
+
+#horiz-menu li.active.sfHover a {
+	color: #1C1D21;
+}
+
+#horiz-menu li.active.parent.sfHover li a:hover {
+	color: #C3CEDE;
+}
+
+#horiz-menu.splitmenu li.active a,
+#horiz-menu.splitmenu li.active-sfHover a {
+	color: #1C1D21;
+	background: url(../images/style5/menu-l.png) 0 0 no-repeat;
+}
+
+#horiz-menu.splitmenu li.active {
+	background: url(../images/style5/menu-r.png) 100% 0 no-repeat;
+}
+
+#horiz-menu li:hover a,
+#horiz-menu li.sfHover a{
+	color: #fff;
+}
+
+#horiz-menu li li a:hover,
+#horiz-menu li.active li a:hover {
+	color: #C3CEDE;
+}
+
+#horiz-menu li li a,
+#horiz-menu li.active li a {
+	color: #fff;
+}
+
+#horiz-menu li li.parent a.daddy,
+#horiz-menu li.active li.parent a.daddy {
+	background: url(../images/style5/dropdown-child.png) 95% 50% no-repeat;
+}
+
+#horiz-menu li li.parent:hover a.daddy,
+#horiz-menu li.active li.parent:hover a.daddy,
+#horiz-menu li li.parent-sfHover a.daddy,
+#horiz-menu li.active li.parent-sfHover a.daddy {
+	background: url(../images/style5/dropdown-child.png) 95% 50% no-repeat;
+}
+
+#horiz-menu li li, 
+#horiz-menu li:hover li,
+#horiz-menu li.sfHover li,
+#horiz-menu li.parent:hover li,
+#horiz-menu li.parent.sfHover li,
+#horiz-menu li.active.parent:hover li,
+#horiz-menu li.active.parent.sfHover li {
+	border-bottom: 1px solid #1F2227;
+	background: none;
+}
+
+#horiz-menu ul ul {
+	background: #2A2D34;
+}
+
+ul.menu li a,
+a.mainlevel {
+	background: url(../images/style5/mainmenu-bg.png) 0 0 no-repeat;
+	color: #1C1D21;
+}
+
+ul.menu li.active a,
+ul.menu li a:hover,
+ul.menu li.active a:hover,
+a#active_menu,
+a.mainlevel:hover {
+	color: #445878;
+	background: url(../images/style5/mainmenu-bg.png) 0 -27px no-repeat;
+}
+
+a#active_menu.sublevel {
+	color: #1C1D21;
+}
+
+a.sublevel {
+	color: #1C1D21;
+}
+
+a.sublevel:hover {
+	color: #445878;
+}
+
+/* @end */
+
+/* @group Tabber */
+
+#moduleslider-size {
+	background: url(../images/style5/modules/tabber/module-bg.png) 50% 100% no-repeat;
+}
+
+#rokslide-toolbar li.current,
+#rokslide-toolbar li.last.current {
+	background: url(../images/style5/active-tab-r.png) 100% 0 no-repeat;
+}
+
+#rokslide-toolbar li.current span {
+	background: url(../images/style5/active-tab-l.png) 0 0 no-repeat;
+}
+
+#rokslide-toolbar li {
+	background: url(../images/style5/tab-r.png) 100% 0 no-repeat;
+}
+
+#rokslide-toolbar li span {
+	background: url(../images/style5/tab-l.png) 0 0 no-repeat;
+}
+
+#rokslide-toolbar {
+	color: #445878;
+	background: url(../images/style5/tab-bg.png) 0 0 repeat-x;
+}
+
+#rokslide-toolbar li.active { 
+	color: #1C1D21;
+}
+
+#rokslide-toolbar li.current { 
+	color: #1C1D21;
+}
+
+/* @end */
+
+/* @group Typography */
+
+li.number-1 {
+	background: url(../images/style5/typo/number-1.png) 0 0 no-repeat;	
+}
+
+li.number-2 {
+	background: url(../images/style5/typo/number-2.png) 0 0 no-repeat;	
+}
+
+li.number-3 {
+	background: url(../images/style5/typo/number-3.png) 0 0 no-repeat;	
+}
+
+li.number-4 {
+	background: url(../images/style5/typo/number-4.png) 0 0 no-repeat;	
+}
+
+li.number-5 {
+	background: url(../images/style5/typo/number-5.png) 0 0 no-repeat;	
+}
+
+li.number-6 {
+	background: url(../images/style5/typo/number-6.png) 0 0 no-repeat;	
+}
+
+li.number-7 {
+	background: url(../images/style5/typo/number-7.png) 0 0 no-repeat;	
+}
+
+li.number-8 {
+	background: url(../images/style5/typo/number-8.png) 0 0 no-repeat;	
+}
+
+li.number-9 {
+	background: url(../images/style5/typo/number-9.png) 0 0 no-repeat;	
+}
+
+ul.bullet-1 li {
+	background: url(../images/style5/typo/bullet-1.png) 2px 0 no-repeat;
+}
+
+ul.bullet-2 li {
+	background: url(../images/style5/typo/bullet-2.png) 2px 0 no-repeat;
+}
+
+ul.bullet-3 li {
+	background: url(../images/style5/typo/bullet-3.png) 2px 0 no-repeat;
+}
+
+ul.bullet-4 li {
+	background: url(../images/style5/typo/bullet-4.png) 2px 0 no-repeat;
+}
+
+blockquote {
+	background: url(../images/style5/typo/quote-start.png) 0 0 no-repeat;
+}
+
+blockquote p {
+	background: url(../images/style5/typo/quote-end.png) 100% 100% no-repeat;
+}
+
+pre {
+	background: #EBECEE;
+	border: 1px solid #E0E1E3;
+}
+
+.tool-tip {
+	background: #EBECEE;
+	border: 1px solid #E0E1E3;
+	padding: 4px;
+}
+
+span.alert {
+	color: #CC0000;
+	border-top: 3px solid #F89394;
+	border-bottom: 3px solid #F89394;
+	background: #F6D0D2 url(../images/style5/typo/status-alert.png) 10px 50% no-repeat;
+}
+
+span.info {
+	color: #0055BB;
+	border-top: 3px solid #94B9E8;
+	border-bottom: 3px solid #94B9E8;
+	background: #D0DEF1 url(../images/style5/typo/status-info.png) 10px 50% no-repeat;
+}
+
+span.note {
+	color: #B79000;
+	border-top: 3px solid #F8E594;
+	border-bottom: 3px solid #F8E594;
+	background: #F6EFD2 url(../images/style5/typo/status-note.png) 10px 50% no-repeat;
+}
+
+span.download {
+	color: #57861A;
+	border-top: 3px solid #CBE39F;
+	border-bottom: 3px solid #CBE39F;
+	background: #E5EED6 url(../images/style5/typo/status-download.png) 10px 50% no-repeat;
+}
+
+/* @end */
+
+/* @group signal login styling */
+
+#sl_vert #sl_username input#mod_login_username, 
+#sl_vert #sl_pass input#mod_login_password, 
+#sl_vert #sl_submitbutton input.button {
+	background-color: #F0F3FA;
+	color: #425878;
+	border: 1px solid #CCCED5;
+}
+
+#sl_vert #sl_submitbutton input.button {
+	background: #DCDEE5;
+}
+
+/* @end */
+
+/* @group RokContentRotator */
+
+.rok-content-rotator {
+	background: url(../images/style5/slide-div.png) 215px 0 repeat-y;
+}
+
+.rok-content-rotator .arrow {
+	background: url(../images/style5/slide-arrow.png) 0 0 no-repeat;
+}
+
+/* @end */
+
+a.large .button {
+	background: url(../images/style5/font-lg.png) 0 0 no-repeat;
+}
+
+a.small .button {
+	background: url(../images/style5/font-sm.png) 0 0 no-repeat;
+}
+
+a.default .button {
+	background: url(../images/style5/font-d.png) 0 0 no-repeat;
+}
+
+span.pathway img {
+	background: url(../images/style5/typo/bullet-3.png) 0 50% no-repeat;
+}
+
+img.demo-border {
+	border: 3px solid #D8D9DE;
+}
